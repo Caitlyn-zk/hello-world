@@ -1,0 +1,31 @@
+/*文章详情页css样式*/
+.container {
+	margin-bottom: 20px;
+}
+
+.container-lf-main , .container-ri-main {
+	height: 1160px;
+}
+.container-mabar {
+	width: 100%;
+	text-align: center;
+}
+.container-mabar img {
+	width: 640px;
+	height: 400px;
+	margin-top: 35px;
+}
+.texss {
+	margin-top: 40px;
+	font-size: 22px;
+	margin-bottom: 23px;
+}
+.container-lf-main {
+	width: 960px;
+	padding: 0 18px;
+	border: 1px solid #E2E2E2;
+}
+.container-baree p {
+	margin-top: 36px;
+	line-height: 26px;
+}

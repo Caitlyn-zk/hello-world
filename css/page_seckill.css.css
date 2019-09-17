@@ -1,0 +1,166 @@
+/*秒杀页面样式*/
+
+.seckill-header {
+	margin-top: 0px;
+	position: relative;
+	z-index: 2;
+}
+.seckill-header .seck-img {
+	margin-top: -1px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.seckill-header .seckimg-barOne {
+	position: absolute;
+	top: 26px;
+	left: 450px;
+}
+.seckill-header .seckill-barClock span{
+	font-size: 24px;
+	color: #fff;
+}
+/*轮播图*/
+.banner-seckill .baner-cursoal {
+	width: 100%;
+	height: 318px;
+	float: left;
+	margin-top: -10px;
+}
+.banner-seckill .baner-cursoal img {
+	font-size: 0;
+	margin-top: -10px;
+	width: 1250px;
+	height: 318px;
+}
+.banner-seckill .carosoal-slide {
+	position: absolute;
+	left: -1250px;
+	top: 0;
+	font-size: 0;
+}
+/*倒计时抢购*/
+.seckill-countDown {
+	width: 100%;
+	height: 60px;
+	background: #343434;
+	color: #8b8c8c;
+}
+.countDownBar {
+	height: 100%;
+	text-align: center;
+}
+.countDownBar span {
+	width: 240px;
+	float: left;
+	display: inline-block;
+}
+.countDownBar .seckill-colok {
+	height: 100%;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.countDownBar .seckill-colok.on {
+	border-top: 1px solid #FF2D52;
+	height: 60px;
+	background: #121212;
+}
+.countDownBar .seckill-colok.on>div {
+	color: #fff;
+}
+.countDownBar .seckill-colok.on>span {
+	color: #FF2D52;
+}
+.goodsMessage-mian {
+	padding: 10px;
+}
+.goodsMessage-mian .goodsMessage {
+	width: 232px;
+	height: 322px;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #e2e2e2;
+	position: relative;
+}
+.goodsMessage img {
+	width: 210px;
+	height: 210px;
+}
+.goodsMessage .message-bar {
+	height: 18px;
+	line-height: 18px;
+}
+.goodsMessage  .message-boxs {
+	width: 100%;
+	height: 40px;
+	line-height: 39px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2px;
+	background: #FF2D52;
+}
+.goodsMessage  .message-boxs a {
+	float: right;
+	background: #fff;
+	height: 36px;
+	width: 76px;
+	color: #FF2D52;
+}
+.goodsMessage:hover {
+	border: 2px solid #FF2D52;
+}
+
+.goodsMessageBar  .message-boxStop {
+	width: 100%;
+	height: 40px;
+	line-height: 39px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2px;
+	background: #999999;
+}
+.goodsMessageBar .message-boxStop a {
+	float: right;
+	background: #fff;
+	height: 36px;
+	width: 76px;
+	color: #cdcdcd;
+}
+.goodsMessage-mian .goodsMessageBar {
+	width: 232px;
+	height: 322px;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #e2e2e2;
+	position: relative;
+}
+.goodsMessageBar .goodsMessageBa-finish {
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	background: #999999;
+	position: absolute;
+	left: 70px;
+	top: 75px;
+	
+}
+ .goodsMessage-but {
+	width: 100%;
+	height: 86px;
+	text-align: center;
+}
+ .goodsMessage-but a {
+	display: inline-block;
+	background: #ccc;
+	color: #fff;
+	width: 134px;
+	height: 30px;
+	font-size: 16px;
+}
+ .goodsMessage-but a:hover {
+	background: #666666;
+}
